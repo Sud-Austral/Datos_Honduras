@@ -46,7 +46,7 @@ jobs:
 
         rm keys.json
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - uses: stefanzweifel/git-auto-commit-action@v2
       with:
         commit_message: "Descargado archivos"
         branch: main
