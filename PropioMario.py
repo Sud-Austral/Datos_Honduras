@@ -1,3 +1,5 @@
+import pandas as pd
+
 def prod33():
     print("Hola")
     df = pd.read_excel("00 DATACOVID Trabajo_HN.xlsx")
